@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: 0;
+  box-sizing: border-box;
+}
+.countButton{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+.countButton .btn{
+ 
+  width: 30px;
+  height: 30px;
+  background-color: lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.price{
+  text-align: center;
+  border-radius: 10px;
+  background-color: aqua;
+}
+.null{
+  text-align: center;
+}

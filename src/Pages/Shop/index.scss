@@ -1,0 +1,67 @@
+.basketpage{
+
+
+.page{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+    .cards{
+        margin-top: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        width: 70%;
+        gap: 30px;
+        a{
+            color: black;
+        }
+        .card{
+            width: 255px;
+            min-height: 450px;
+            display:flex ;
+            flex-direction: column;
+            gap: 10px;
+            padding: 10px;
+            box-shadow: 0px 2px 4px 0px #0000000e;
+            .countButton{
+                display: flex;
+                 .btn{
+                     width: 100px;
+                     height: 100px;
+                     border: 1px solid black;
+                 }
+ 
+             }
+           
+            .image{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                gap: 30px;
+    
+                img{
+                    width: 250px;
+                    height: 255px;
+                    
+                }
+                .hoverIcon{
+                    display: flex;
+                    justify-content: center;
+                    gap: 20px;
+                    width: 80%;
+                    height: 40px;
+                    
+                }
+            }
+            .cost{
+                display: flex;
+                gap: 30px;
+                .discount{
+                    text-decoration:line-through;
+                }
+            }
+            
+        }
+    }
+    }
+}
